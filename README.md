@@ -1,1 +1,1 @@
-My first repository on the C programming language
+I will demonstrate some C basics
