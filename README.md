@@ -1,1 +1,1 @@
-I will demonstrate some C basics
+This is to demonstrate basic C operations
