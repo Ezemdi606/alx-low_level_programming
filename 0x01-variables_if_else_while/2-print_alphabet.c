@@ -4,13 +4,19 @@
  * main - Prints alphabets in lowercase
  *
  * Return: 0
+ *
  */
 int main(void)
 {
-	char letter = 'a';
+	char letter;
+	int i;
+	
+for (letter = 'a'; letter <= 'z'; letter++);
 
-	for (letter = 'a'; 'a' <= 'z'; letter++);
-	putchar(letter);
-	putchar('\n');
+	{
+		putchar(letter);
+		putchar('\n');
+	}
+
 	return (0);
 }
