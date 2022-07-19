@@ -1,7 +1,11 @@
 #include <stdio.h>
 
 #include <string.h>
-
+/**
+* the strcmp function is used to compare two strings
+* if the strings are the same, it returns 0
+*
+**/
 
 
 int main() {
