@@ -15,7 +15,7 @@ int main(void)
 {
 	char a[] = "Hello";
 	char b[] = "World!";
-	
+
 	printf("%d\n", _strcmp(a, b));
 	printf("%d\n", _strcmp(b, a));
 	printf("%d\n", _strcmp(a, b));
