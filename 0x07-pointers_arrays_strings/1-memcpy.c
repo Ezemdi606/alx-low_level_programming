@@ -20,10 +20,13 @@ int main(void)
 	 * str2 to str1.
 	 * to copy the whole string not just seven
 	 * use "strlen(str2)"
+	 * Always make sure that the array you are copying
+	 * into has more size than the array you are copying
+	 * from.
 	 */
 	memcpy(str1, str2, 7);
 	printf("%s\n", str1);
-	return (0);
+	return (0); 
 }
 
 
