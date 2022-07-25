@@ -2,26 +2,25 @@
 
 #include <string.h>
 /**
- * main - The main function
+ * main - This program will demonstrate how the strchr
+ * function is used.
  *
- * str1 - The destination array
- *
- * str12 - The source array
+ * @strchr - This function locates a character in a string
+ * and will print the rest of the string from the located
+ * character.
  *
  * Return: 0
  */
+
 int main(void)
 
 {
-	char str1[] = "My first program demonstrating memcpy";
-	char str2[] = "Copying to the first array";
-	/**
-	 * seven characters will be copied from
-	 * str2 to str1
-	 */
-	memcpy(str1, str2, 7);
-	printf("%s\n", str1);
+	char arr[] = "This is test";
+	char *ch;
+	int ng = 'h';
+
+	ch = strchr(arr, ng);
+
+	printf("The new string is: %s\n", ch);
 	return (0);
 }
-
-
